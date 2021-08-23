@@ -1,4 +1,3 @@
-Canal Mecatrônica na Prática
 
 # IntroducaoaMecatronica
 
