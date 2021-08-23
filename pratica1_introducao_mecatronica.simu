@@ -1,0 +1,71 @@
+<circuit reactStep="50" animate="0" type="simulide_0.4" Speed_sps="1000000" Simu_Step_nS="1000" Speed_per="100" noLinAcc="5">
+
+Unique  Id: Switch-133: 
+Circuit Id: Switch-133
+<item valLabelx="0" mainComp="false" Key="" x="-320" circRot="4.8593703634053119e-312" rotation="0" id="Switch-133" labely="-24" labelx="-16" valLabRot="0" objectName="Switch-133" Norm_Close="false" circPos="0,0" itemtype="Switch" Poles="1" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" y="-280" hflip="1" Show_id="false" valLabely="0" DT="false"/>
+
+Unique  Id: Battery-134: 
+Circuit Id: Battery-134
+<item valLabelx="-10" mainComp="false" Show_Volt="true" x="-392" Volts="1.5" circRot="0" rotation="90" id="Battery-134" labely="-22" labelx="-18" valLabRot="0" objectName="Battery-134" circPos="0,0" itemtype="Battery" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" y="-252" hflip="1" Show_id="false" valLabely="10"/>
+
+Unique  Id: Battery-135: 
+Circuit Id: Battery-134
+<item valLabelx="-10" mainComp="false" Show_Volt="true" x="-392" Volts="1.5" circRot="0" rotation="90" id="Battery-134" labely="-22" labelx="-18" valLabRot="0" objectName="Battery-135" circPos="0,0" itemtype="Battery" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" y="-208" hflip="1" Show_id="false" valLabely="10"/>
+
+Unique  Id: Battery-136: 
+Circuit Id: Battery-134
+<item valLabelx="-10" mainComp="false" Show_Volt="true" x="-392" Volts="1.5" circRot="0" rotation="90" id="Battery-134" labely="-22" labelx="-18" valLabRot="0" objectName="Battery-136" circPos="0,0" itemtype="Battery" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" y="-164" hflip="1" Show_id="false" valLabely="10"/>
+
+Unique  Id: DcMotor-145: 
+Circuit Id: DcMotor-145
+<item valLabelx="0" mainComp="false" RPM_Nominal="60" x="-248" circRot="-5.4861292803319049e+303" rotation="90" id="DcMotor-145" labely="-48" labelx="-22" valLabRot="0" objectName="DcMotor-145" circPos="0,0" itemtype="DcMotor" Resistance="100" Unit=" Ω" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" Volt_Nominal="5" y="-212" hflip="1" Show_id="true" valLabely="0"/>
+
+Unique  Id: Voltimeter-148: 
+Circuit Id: Voltimeter-148
+<item valLabelx="0" mainComp="false" x="-184" circRot="nan" rotation="0" id="Voltimeter-148" labely="-40" labelx="-24" valLabRot="0" objectName="Voltimeter-148" circPos="0,0" itemtype="Voltimeter" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" y="-280" hflip="1" Show_id="false" valLabely="0"/>
+
+Unique  Id: Node-151: 
+Circuit Id: Node-151
+<item valLabelx="0" mainComp="false" x="-248" circRot="nan" rotation="0" id="Node-151" labely="-24" labelx="-16" valLabRot="0" objectName="Node-151" circPos="0,0" itemtype="Node" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" y="-264" hflip="1" Show_id="false" valLabely="0"/>
+
+Unique  Id: Node-154: 
+Circuit Id: Node-154
+<item valLabelx="0" mainComp="false" x="-248" circRot="-5.4861292803319049e+303" rotation="0" id="Node-154" labely="-24" labelx="-16" valLabRot="0" objectName="Node-154" circPos="0,0" itemtype="Node" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" y="-156" hflip="1" Show_id="false" valLabely="0"/>
+
+Unique  Id: Connector-142: 
+Circuit Id: Connector-142
+<item valLabelx="0" mainComp="false" x="-392" circRot="0" rotation="0" id="Connector-142" endpinid="Battery-134-Pin1" labely="-24" labelx="-16" valLabRot="0" objectName="Connector-142" pointList="-392,-224,-392,-236" circPos="0,0" itemtype="Connector" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" startpinid="Battery-135-Pin0" enodeid="Circ_eNode-155" y="-224" hflip="1" Show_id="false" valLabely="0"/>
+
+Unique  Id: Connector-143: 
+Circuit Id: Connector-143
+<item valLabelx="0" mainComp="false" x="-392" circRot="0" rotation="0" id="Connector-143" endpinid="Battery-135-Pin1" labely="-24" labelx="-16" valLabRot="0" objectName="Connector-143" pointList="-392,-180,-392,-192" circPos="0,0" itemtype="Connector" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" startpinid="Battery-136-Pin0" enodeid="Circ_eNode-156" y="-180" hflip="1" Show_id="false" valLabely="0"/>
+
+Unique  Id: Connector-144: 
+Circuit Id: Connector-144
+<item valLabelx="0" mainComp="false" x="-392" circRot="0" rotation="0" id="Connector-144" endpinid="Switch-133-pinP0" labely="-24" labelx="-16" valLabRot="0" objectName="Connector-144" pointList="-392,-268,-392,-280,-336,-280" circPos="0,0" itemtype="Connector" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" startpinid="Battery-134-Pin0" enodeid="Circ_eNode-157" y="-268" hflip="1" Show_id="false" valLabely="0"/>
+
+Unique  Id: Connector-146: 
+Circuit Id: Connector-146
+<item valLabelx="0" mainComp="false" x="-248" circRot="0" rotation="0" id="Connector-146" endpinid="Node-151-0" labely="-24" labelx="-16" valLabRot="0" objectName="Connector-146" pointList="-248,-252,-248,-264" circPos="0,0" itemtype="Connector" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" startpinid="DcMotor-145-lPin" enodeid="Circ_eNode-158" y="-252" hflip="1" Show_id="false" valLabely="0"/>
+
+Unique  Id: Connector-147: 
+Circuit Id: Connector-147
+<item valLabelx="0" mainComp="false" x="-248" circRot="0" rotation="0" id="Connector-147" endpinid="Node-154-0" labely="-24" labelx="-16" valLabRot="0" objectName="Connector-147" pointList="-248,-172,-248,-156" circPos="0,0" itemtype="Connector" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" startpinid="DcMotor-145-rPin" enodeid="Circ_eNode-159" y="-172" hflip="1" Show_id="false" valLabely="0"/>
+
+Unique  Id: Connector-150: 
+Circuit Id: Connector-150
+<item valLabelx="0" mainComp="false" x="-192" circRot="0" rotation="0" id="Connector-150" endpinid="Node-151-1" labely="-24" labelx="-16" valLabRot="0" objectName="Connector-150" pointList="-192,-264,-248,-264" circPos="0,0" itemtype="Connector" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" startpinid="Voltimeter-148-lPin" enodeid="Circ_eNode-158" y="-264" hflip="1" Show_id="false" valLabely="0"/>
+
+Unique  Id: Connector-152: 
+Circuit Id: Connector-152
+<item valLabelx="0" mainComp="false" x="-248" circRot="0" rotation="0" id="Connector-152" endpinid="Switch-133-switch0pinN" labely="-24" labelx="-16" valLabRot="0" objectName="Connector-152" pointList="-248,-264,-248,-280,-304,-280" circPos="0,0" itemtype="Connector" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" startpinid="Node-151-2" enodeid="Circ_eNode-158" y="-264" hflip="1" Show_id="false" valLabely="0"/>
+
+Unique  Id: Connector-153: 
+Circuit Id: Connector-153
+<item valLabelx="0" mainComp="false" x="-176" circRot="0" rotation="0" id="Connector-153" endpinid="Node-154-1" labely="-24" labelx="-16" valLabRot="0" objectName="Connector-153" pointList="-176,-264,-176,-156,-248,-156" circPos="0,0" itemtype="Connector" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" startpinid="Voltimeter-148-rPin" enodeid="Circ_eNode-159" y="-264" hflip="1" Show_id="false" valLabely="0"/>
+
+Unique  Id: Connector-155: 
+Circuit Id: Connector-155
+<item valLabelx="0" mainComp="false" x="-248" circRot="0" rotation="0" id="Connector-155" endpinid="Battery-136-Pin1" labely="-24" labelx="-16" valLabRot="0" objectName="Connector-155" pointList="-248,-156,-248,-128,-392,-128,-392,-148" circPos="0,0" itemtype="Connector" boardPos="-1e+06,-1e+06" labelrot="0" boardRot="-1000000" vflip="1" startpinid="Node-154-2" enodeid="Circ_eNode-159" y="-156" hflip="1" Show_id="false" valLabely="0"/>
+ 
+</circuit>
